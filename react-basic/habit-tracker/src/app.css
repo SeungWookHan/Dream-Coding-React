@@ -88,3 +88,10 @@ button {
   vertical-align: baseline;
   color: darkred;
 }
+
+.habits-reset {
+  font-size: 1.5rem;
+  padding: 0.2em 1em;
+  background-color: green;
+  color: white;
+}
