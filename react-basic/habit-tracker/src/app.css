@@ -1,7 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 button {
   outline: none;
   border: 0;
   cursor: pointer;
+}
+
+.navbar {
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: blanchedalmond;
+}
+
+.navbar-logo {
+  color: green;
+  margin-right: 0.5rem;
+}
+
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2rem;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
 }
 
 .habit {
